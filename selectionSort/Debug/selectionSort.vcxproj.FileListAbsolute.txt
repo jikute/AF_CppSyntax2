@@ -1,2 +1,0 @@
-E:\VSproject\cppSyntax\selectionSort\Debug\selectionSort.exe
-E:\VSproject\cppSyntax\selectionSort\Debug\selectionSort.pdb

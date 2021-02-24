@@ -1,0 +1,2 @@
+E:\VSproject\cppSyntax\sortAlgorithm\Debug\sortAlgorithm.exe
+E:\VSproject\cppSyntax\sortAlgorithm\Debug\sortAlgorithm.pdb
