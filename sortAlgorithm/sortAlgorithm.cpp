@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// selection sort method to sort the sequence from small to large
+// selection sort from small to large
 void selectionSort(int a[], int n)
 {
 	for (int i = 0; i < n; i++)
@@ -25,7 +25,7 @@ void selectionSort(int a[], int n)
 	}
 }
 
-// bubble sort method to sort the sequence from small to large
+// bubble sort from small to large
 void bubbleSort(int a[], int n)
 {
 	for (int i = 0; i < n; i++)
@@ -46,7 +46,7 @@ void bubbleSort(int a[], int n)
 	}
 }
 
-// insection sort method to sort the sequence from small to large
+// insection sort from small to large
 void insectionSort(int a[], int n)
 {
 	for (int i = 1; i < n; i++)
@@ -55,12 +55,12 @@ void insectionSort(int a[], int n)
 		int value = a[i];
 		int j = i - 1;
 		//move the larger numbers back
-		while (j >= 0 && a[j] > a[i])
+		while (j >= 0 && a[j] > value)
 		{
 			a[j + 1] = a[j];
 			j = j - 1;
 		}
 		//insect a[i] in the right position
-		a[j + 1] = a[i];
+		a[j + 1] = value;
 	}
 }
